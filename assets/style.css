@@ -11,6 +11,3 @@ header{background:linear-gradient(135deg,#102a56,#234f9b);color:#fff;padding:42p
 .modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.86);z-index:50;padding:20px;align-items:center;justify-content:center}.modal.open{display:flex}.modal img{max-width:96vw;max-heigh[...]
 footer{border-top:1px solid var(--border);padding:28px 0;color:var(--muted);font-size:.9rem}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.toc{position:static;height:auto}.toc a{display:inline-block;margin:2px}.slide-text{display:block}.controls{position:static}}
-
-/* Hide the Print button (UI only). Keeps the existing JS listener intact so it can be re-enabled later. */
-#print{display:none!important}
