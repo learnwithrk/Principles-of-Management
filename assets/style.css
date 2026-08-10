@@ -11,3 +11,12 @@ header{background:linear-gradient(135deg,#102a56,#234f9b);color:#fff;padding:42p
 .modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.86);z-index:50;padding:20px;align-items:center;justify-content:center}.modal.open{display:flex}.modal img{max-width:96vw;max-height:92vh;object-fit:contain}.close{position:fixed;right:18px;top:12px;color:#fff;font-size:32px;cursor:pointer}
 footer{border-top:1px solid var(--border);padding:28px 0;color:var(--muted);font-size:.9rem}
 @media(max-width:900px){.layout{grid-template-columns:1fr}.toc{position:static;height:auto}.toc a{display:inline-block;margin:2px}.slide-text{display:block}.controls{position:static}}
+
+.part-nav{position:sticky;top:0;z-index:20;background:#102a56;border-bottom:1px solid rgba(255,255,255,.15)}
+.part-nav-inner{display:flex;gap:8px;overflow-x:auto;padding-top:8px;padding-bottom:8px}
+.part-link{flex:0 0 auto;color:#fff;text-decoration:none;padding:9px 18px;border-radius:999px;font-weight:700;font-size:.95rem;transition:.2s}
+.part-link:hover,.part-link:focus{background:rgba(255,255,255,.16);outline:none}
+.part-title-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.part-title-row h2{margin:0}
+.part-badge{display:inline-block;background:#234f9b;color:#fff;padding:6px 11px;border-radius:999px;font-size:.82rem;font-weight:800;letter-spacing:.03em}
+@media(max-width:900px){.part-nav{position:static}.part-nav-inner{justify-content:flex-start}.part-link{padding:8px 14px}}
