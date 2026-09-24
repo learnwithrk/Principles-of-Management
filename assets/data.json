@@ -3306,3 +3306,33 @@
     "slide_count": 63
   }
 ]
+{
+  "id": "Module_IV",
+  "file": "Module_IV_Staffing_and_Leadership.pptx",
+  "title": "Module IV — Staffing and Leadership",
+  "slides": [
+    {
+      "num": 1,
+      "image": "assets/slides/Module_IV/slide-1.png",
+      "text": [
+        "..."
+      ]
+    }
+  ],
+  "slide_count": 33
+}
+{
+  "id": "Module_V",
+  "file": "Module_V_Motivation_and_Controlling.pptx",
+  "title": "Module V — Motivation and Controlling",
+  "slides": [
+    {
+      "num": 1,
+      "image": "assets/slides/Module_V/slide-1.png",
+      "text": [
+        "..."
+      ]
+    }
+  ],
+  "slide_count": 32
+}
