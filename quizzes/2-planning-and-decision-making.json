@@ -1,0 +1,507 @@
+{
+  "id": "2-planning-and-decision-making",
+  "title": "2. Planning and Decision Making",
+  "subtitle": "Planning Process, Types of Plans, Forecasting, MBO, Decision-Making and SDGs",
+  "questions": [
+    {
+      "q": "Planning is primarily concerned with:",
+      "options": [
+        "Measuring past performance only",
+        "Deciding in advance what is to be done and how it is to be done",
+        "Recruiting employees only",
+        "Controlling financial statements"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Planning is considered the:",
+      "options": [
+        "Primary function of management",
+        "Only function of staffing",
+        "Final function of management",
+        "Secondary accounting activity"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Planning is future-oriented because it:",
+      "options": [
+        "Deals with future courses of action",
+        "Ignores organizational objectives",
+        "Deals only with past events",
+        "Eliminates future uncertainty completely"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A major characteristic of planning is that it is:",
+      "options": [
+        "Random",
+        "Goal-oriented",
+        "Unsystematic",
+        "Unrelated to objectives"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Planning helps managers to:",
+      "options": [
+        "Reduce uncertainty and prepare for future conditions",
+        "Eliminate organizational objectives",
+        "Avoid decision-making",
+        "Eliminate all risks"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The first step in the planning process is generally:",
+      "options": [
+        "Implementing the plan",
+        "Taking corrective action",
+        "Setting objectives",
+        "Evaluating alternatives"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "After setting objectives, managers generally:",
+      "options": [
+        "Avoid forecasting",
+        "Eliminate all alternatives",
+        "Immediately terminate the plan",
+        "Develop planning premises and identify alternatives"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Planning premises refer to:",
+      "options": [
+        "Employee salaries",
+        "Assumptions about future conditions",
+        "Product prices only",
+        "Historical accounting records only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The process of identifying and evaluating alternative courses of action is part of:",
+      "options": [
+        "Staffing",
+        "Planning",
+        "Controlling only",
+        "Recruitment"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A plan that establishes broad organizational goals and direction is generally called:",
+      "options": [
+        "Strategic plan",
+        "Routine procedure",
+        "Operational schedule",
+        "Job description"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Strategic planning is primarily concerned with:",
+      "options": [
+        "Long-term direction and organizational strategy",
+        "Employee payroll only",
+        "Daily attendance",
+        "Routine clerical work"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Operational planning is mainly concerned with:",
+      "options": [
+        "Long-term international treaties",
+        "Short-term activities and implementation",
+        "National economic policy",
+        "Corporate mission only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A policy provides:",
+      "options": [
+        "A financial statement",
+        "A detailed sequence for every activity",
+        "A job evaluation",
+        "General guidelines for decision-making"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A procedure specifies:",
+      "options": [
+        "The organization's share price",
+        "A sequence of steps for handling recurring activities",
+        "The organization's mission only",
+        "The employee's salary"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A budget is:",
+      "options": [
+        "A numerical statement of expected results",
+        "An organizational chart",
+        "A recruitment advertisement",
+        "A qualitative mission statement"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Planning contributes to coordination by:",
+      "options": [
+        "Eliminating communication",
+        "Providing common objectives and direction",
+        "Encouraging conflicting objectives",
+        "Reducing organizational unity"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "One limitation of planning is:",
+      "options": [
+        "It may involve cost, time and uncertainty about future conditions",
+        "It makes decision-making unnecessary",
+        "It eliminates all risks",
+        "It guarantees success in every situation"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Forecasting is the process of:",
+      "options": [
+        "Preparing employee salaries",
+        "Estimating future conditions or events",
+        "Eliminating uncertainty completely",
+        "Recording only past events"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Forecasting is important because it:",
+      "options": [
+        "Guarantees future results",
+        "Provides a basis for planning",
+        "Replaces management",
+        "Eliminates the need for planning"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which of the following is a qualitative forecasting technique?",
+      "options": [
+        "Delphi technique",
+        "Regression analysis",
+        "Exponential smoothing",
+        "Moving average"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which of the following is a quantitative forecasting technique?",
+      "options": [
+        "Jury of executive opinion",
+        "Delphi technique",
+        "Expert opinion",
+        "Moving average"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Trend analysis is used to:",
+      "options": [
+        "Design organizational structures",
+        "Identify patterns in historical data for forecasting",
+        "Recruit employees",
+        "Conduct employee appraisal"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Management by Objectives was popularized by:",
+      "options": [
+        "Peter Drucker",
+        "Max Weber",
+        "F.W. Taylor",
+        "Henry Fayol"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "MBO stands for:",
+      "options": [
+        "Management by Objectives",
+        "Management by Output",
+        "Management by Organization",
+        "Management by Operations"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A key feature of MBO is:",
+      "options": [
+        "Centralized decision-making only",
+        "Joint setting of objectives between managers and employees",
+        "Complete absence of objectives",
+        "Elimination of performance evaluation"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "MBO emphasizes:",
+      "options": [
+        "Financial accounting only",
+        "Employee attendance only",
+        "Results and achievement of agreed objectives",
+        "Elimination of feedback"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Management by Exception focuses managerial attention on:",
+      "options": [
+        "Every minor activity",
+        "Significant deviations from standards",
+        "Employee recruitment only",
+        "Routine transactions only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "MBE stands for:",
+      "options": [
+        "Management by Employees",
+        "Management by Exception",
+        "Management by Efficiency",
+        "Management by Evaluation"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Decision-making involves:",
+      "options": [
+        "Eliminating objectives",
+        "Avoiding alternatives",
+        "Ignoring information",
+        "Selecting the best alternative from available alternatives"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "The first step in decision-making is generally:",
+      "options": [
+        "Evaluating results",
+        "Implementing the decision",
+        "Identifying the problem",
+        "Selecting an alternative"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "After identifying a problem, a manager should generally:",
+      "options": [
+        "Develop and evaluate alternatives",
+        "Avoid decision-making",
+        "Implement the first idea immediately",
+        "Ignore available information"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A programmed decision is:",
+      "options": [
+        "A routine decision for which established procedures exist",
+        "A decision without rules",
+        "An emergency decision only",
+        "A unique strategic decision"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A non-programmed decision is generally:",
+      "options": [
+        "Novel and unstructured",
+        "Fully automated",
+        "Routine and repetitive",
+        "Based only on established procedures"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A decision tree is a tool used for:",
+      "options": [
+        "Analyzing alternative decisions and possible outcomes",
+        "Preparing employee payroll",
+        "Conducting recruitment",
+        "Designing office layouts"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "SWOT analysis examines:",
+      "options": [
+        "Strategy, Work, Output and Training",
+        "Strengths, Weaknesses, Opportunities and Threats",
+        "Sales, Wages, Operations and Taxes",
+        "Systems, Workforce, Objectives and Technology"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Strategic planning generally begins with:",
+      "options": [
+        "Understanding the organization's mission and objectives",
+        "Conducting routine purchasing",
+        "Preparing employee attendance",
+        "Preparing tax returns"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A mission statement describes:",
+      "options": [
+        "Individual employee salaries",
+        "Monthly sales only",
+        "The basic purpose and reason for an organization's existence",
+        "Daily employee schedules"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A vision statement generally describes:",
+      "options": [
+        "Past financial performance",
+        "Employee attendance",
+        "Current inventory only",
+        "The desired future state of the organization"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Sustainable Development Goals are commonly abbreviated as:",
+      "options": [
+        "SDGs",
+        "SGPs",
+        "SDBs",
+        "SGDs"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The United Nations Sustainable Development Goals consist of:",
+      "options": [
+        "15 goals",
+        "17 goals",
+        "25 goals",
+        "10 goals"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Including SDGs in managerial planning helps organizations:",
+      "options": [
+        "Align business objectives with broader social, economic and environmental goals",
+        "Eliminate profitability objectives",
+        "Ignore environmental issues",
+        "Avoid stakeholder responsibilities"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "SDG 8 focuses primarily on:",
+      "options": [
+        "Life Below Water",
+        "Decent Work and Economic Growth",
+        "Climate Action",
+        "Quality Education"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "SDG 12 focuses on:",
+      "options": [
+        "Zero Hunger",
+        "Life on Land",
+        "Gender Equality",
+        "Responsible Consumption and Production"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Chanakya's Arthashastra emphasizes the importance of:",
+      "options": [
+        "Ignoring economic conditions",
+        "Avoiding planning",
+        "Eliminating organizational controls",
+        "Strategic thinking, governance and prudent decision-making"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Strategic planning inspired by Arthashastra would emphasize:",
+      "options": [
+        "Avoiding information",
+        "Ignoring competitors",
+        "Understanding resources, risks, competitors and the external environment",
+        "Making decisions without analysis"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Chanakya emphasized the importance of:",
+      "options": [
+        "Ignoring information",
+        "Intelligence and information for effective governance",
+        "Avoiding strategic analysis",
+        "Eliminating advisors"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A policy differs from a procedure because:",
+      "options": [
+        "A policy provides general guidance while a procedure specifies steps",
+        "Both are exactly identical",
+        "A policy always contains numerical data",
+        "A procedure defines organizational mission"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A good planning system should be:",
+      "options": [
+        "Independent of environmental changes",
+        "Completely rigid",
+        "Flexible enough to respond to changing circumstances",
+        "Unrelated to organizational objectives"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Decision-making under uncertainty occurs when:",
+      "options": [
+        "There is only one alternative",
+        "No decision is required",
+        "Future outcomes cannot be predicted with certainty",
+        "All outcomes are known"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The rational decision-making approach assumes that managers:",
+      "options": [
+        "Evaluate alternatives systematically to select an appropriate course of action",
+        "Avoid evaluating alternatives",
+        "Always choose randomly",
+        "Ignore available information"
+      ],
+      "answer": 0
+    }
+  ]
+}

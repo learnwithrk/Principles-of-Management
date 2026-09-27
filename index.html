@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Principles of Management — Quiz Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div id="topbar"></div>
+
+<div class="hero">
+  <div class="container">
+    <div class="eyebrow">Learn with RK</div>
+    <h1>Principles of Management, module by module.</h1>
+    <p>Test yourself module by module. Every quiz saves your score to a shared leaderboard, and shows you exactly which questions to revisit. Lecture slides for every module are available below.</p>
+  </div>
+</div>
+
+<main>
+  <div class="container">
+
+    <div class="section-head"><h2>Available quizzes</h2><div class="rule"></div></div>
+    <div id="quizList" class="quiz-list">
+      <div class="empty-note">Loading quizzes…</div>
+    </div>
+
+    <div class="section-head"><h2>Lecture slides</h2><div class="rule"></div></div>
+    <div class="quiz-list">
+
+      <div class="quiz-card">
+        <div class="num">1.1</div>
+        <div class="body">
+          <h3>Introduction to Management — Part I</h3>
+          <div class="meta">Module 1 · Meaning of Management</div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="ppt/Principles_of_Management.pptx" download>Download PPT</a>
+        </div>
+      </div>
+
+      <div class="quiz-card">
+        <div class="num">1.2</div>
+        <div class="body">
+          <h3>Introduction to Management — Part II</h3>
+          <div class="meta">Module 1 · Functions, Nature, Levels &amp; Founding Theories</div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="ppt/Principles_of_Management_Part2.pptx" download>Download PPT</a>
+        </div>
+      </div>
+
+      <div class="quiz-card">
+        <div class="num">1.3</div>
+        <div class="body">
+          <h3>Introduction to Management — Part III</h3>
+          <div class="meta">Module 1 · Indian Ethos, Administration vs. Management &amp; 21st-Century Challenges</div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="ppt/Principles_of_Management_Part3.pptx" download>Download PPT</a>
+        </div>
+      </div>
+
+      <div class="quiz-card">
+        <div class="num">2</div>
+        <div class="body">
+          <h3>Planning and Decision Making</h3>
+          <div class="meta">Module 2 · Meaning, Nature, Steps &amp; Types of Plans</div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="ppt/Principles_of_Management_Part4.pptx" download>Download PPT</a>
+        </div>
+      </div>
+
+      <div class="quiz-card">
+        <div class="num">3</div>
+        <div class="body">
+          <h3>Organizing</h3>
+          <div class="meta">Module 3 · Nature, Theory, Types, Authority &amp; Delegation</div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="ppt/Principles_of_Management_Part5.pptx" download>Download PPT</a>
+        </div>
+      </div>
+
+      <div class="quiz-card">
+        <div class="num">4</div>
+        <div class="body">
+          <h3>Staffing and Leadership</h3>
+          <div class="meta">Module 4</div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="ppt/Module_IV_Staffing_and_Leadership.pptx" download>Download PPT</a>
+        </div>
+      </div>
+
+      <div class="quiz-card">
+        <div class="num">5</div>
+        <div class="body">
+          <h3>Motivation and Controlling</h3>
+          <div class="meta">Module 5</div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="ppt/Module_V_Motivation_and_Controlling.pptx" download>Download PPT</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="container">Principles of Management — Quiz Hub - Rajakrishnan Manivel https://learnwithrk.blogspot.com/</div>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/app.js"></script>
+<script>
+QuizApp.renderTopbar();
+
+(async function loadQuizzes() {
+  const listEl = document.getElementById("quizList");
+  try {
+    const manifest = await (await fetch("quizzes/manifest.json")).json();
+    if (!manifest.length) {
+      listEl.innerHTML = `<div class="empty-note">No quizzes published yet — check back soon.</div>`;
+      return;
+    }
+    listEl.innerHTML = manifest.map((q) => `
+      <div class="quiz-card">
+        <div class="num">${QuizApp.escapeHtml((q.title.match(/^[\d.]+/) || [""])[0] || "—")}</div>
+        <div class="body">
+          <h3>${QuizApp.escapeHtml(q.title)}</h3>
+          <div class="meta">${q.subject ? QuizApp.escapeHtml(q.subject) + " · " : ""}${q.questionCount} questions</div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-ghost" href="leaderboard.html?id=${encodeURIComponent(q.id)}">Leaderboard</a>
+          <a class="btn btn-primary" href="quiz.html?id=${encodeURIComponent(q.id)}">Start Quiz</a>
+        </div>
+      </div>
+    `).join("");
+  } catch (e) {
+    listEl.innerHTML = `<div class="empty-note">Couldn't load the quiz list (${QuizApp.escapeHtml(e.message)}).</div>`;
+  }
+})();
+</script>
+</body>
+</html>

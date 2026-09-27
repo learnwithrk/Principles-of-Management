@@ -1,0 +1,497 @@
+{
+  "id": "4-staffing-and-leadership",
+  "title": "4. Staffing and Leadership",
+  "subtitle": "Recruitment, Selection, Training, Leadership Styles, and Leadership Lessons from the Ramayana & Mahabharata",
+  "questions": [
+    {
+      "q": "Staffing is primarily concerned with:",
+      "options": [
+        "Acquiring, developing and maintaining human resources",
+        "Setting product prices",
+        "Purchasing machinery",
+        "Preparing financial statements"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The primary objective of staffing is to:",
+      "options": [
+        "Place the right person in the right job",
+        "Reduce the number of employees",
+        "Eliminate employee training",
+        "Avoid performance evaluation"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The staffing process generally begins with:",
+      "options": [
+        "Retirement",
+        "Performance appraisal",
+        "Human resource planning",
+        "Promotion"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Recruitment refers to:",
+      "options": [
+        "Selecting the final candidate only",
+        "Attracting potential candidates for available positions",
+        "Evaluating employee performance",
+        "Training employees"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Selection involves:",
+      "options": [
+        "Training all applicants",
+        "Advertising vacancies only",
+        "Choosing the most suitable candidate from applicants",
+        "Promoting existing employees only"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Recruitment is generally considered:",
+      "options": [
+        "A negative process of eliminating candidates",
+        "A training process",
+        "An appraisal process",
+        "A positive process of attracting candidates"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Selection is generally considered:",
+      "options": [
+        "A process of choosing the most suitable candidate",
+        "A process of attracting all applicants",
+        "A process of controlling production",
+        "A process of setting organizational objectives"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Internal recruitment involves:",
+      "options": [
+        "Recruiting only from universities",
+        "Filling vacancies from within the organization",
+        "Hiring through external agencies only",
+        "Recruiting foreign employees"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "External recruitment involves:",
+      "options": [
+        "Promoting existing employees only",
+        "Transferring current employees only",
+        "Retiring existing employees",
+        "Seeking candidates outside the organization"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A job description generally contains:",
+      "options": [
+        "Customer preferences",
+        "Personal financial information of employees",
+        "Duties, responsibilities and tasks associated with a job",
+        "Organizational profit"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Job specification describes:",
+      "options": [
+        "Duties of the organization",
+        "Product features",
+        "Financial performance",
+        "Qualifications, skills and characteristics required for a job"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Job analysis is the process of:",
+      "options": [
+        "Systematically studying a job's duties and requirements",
+        "Evaluating company profits",
+        "Setting product prices",
+        "Preparing financial statements"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Job evaluation is mainly concerned with:",
+      "options": [
+        "Recruiting candidates",
+        "Determining the relative worth of jobs",
+        "Preparing job descriptions only",
+        "Evaluating employee personality"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Training primarily aims to:",
+      "options": [
+        "Reduce employee competence",
+        "Improve employee knowledge, skills and performance",
+        "Replace recruitment",
+        "Eliminate organizational learning"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "On-the-job training occurs:",
+      "options": [
+        "Only in universities",
+        "Outside the organization in every case",
+        "Through written examinations only",
+        "At the workplace while performing job-related activities"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Performance appraisal is used to:",
+      "options": [
+        "Prepare tax returns",
+        "Recruit customers",
+        "Determine market share",
+        "Evaluate employee performance systematically"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Promotion generally involves:",
+      "options": [
+        "Termination of employment",
+        "Transfer to another organization",
+        "Reduction in job responsibility",
+        "Movement of an employee to a higher position with greater responsibility"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Leadership is primarily concerned with:",
+      "options": [
+        "Preparing accounting records",
+        "Influencing people to achieve organizational objectives",
+        "Controlling inventory only",
+        "Purchasing machinery"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A leader's ability to influence others is based significantly on:",
+      "options": [
+        "Financial accounting skills only",
+        "Physical strength only",
+        "Leadership power and interpersonal relationships",
+        "Job title alone"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "An effective leader should possess:",
+      "options": [
+        "No concern for employees",
+        "Only technical knowledge",
+        "Communication and interpersonal skills",
+        "No decision-making ability"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Autocratic leadership is characterized by:",
+      "options": [
+        "Centralized decision-making by the leader",
+        "Absence of leadership",
+        "Decisions made entirely by subordinates",
+        "Complete employee autonomy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Democratic leadership emphasizes:",
+      "options": [
+        "Elimination of employee opinions",
+        "Complete concentration of authority",
+        "One-way communication only",
+        "Participation of employees in decision-making"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Laissez-faire leadership provides:",
+      "options": [
+        "Significant autonomy to subordinates",
+        "Strict centralized supervision",
+        "No responsibility to employees",
+        "Complete control by the leader"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Transformational leadership focuses on:",
+      "options": [
+        "Maintaining routines only",
+        "Inspiring and developing followers toward significant change",
+        "Eliminating employee participation",
+        "Avoiding organizational change"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Transactional leadership emphasizes:",
+      "options": [
+        "Avoidance of supervision",
+        "Complete absence of performance standards",
+        "Elimination of rewards",
+        "Rewards, performance and exchanges between leader and followers"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "One important function of leadership is:",
+      "options": [
+        "Preparing tax returns",
+        "Motivating employees",
+        "Maintaining inventory only",
+        "Recording transactions"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Leadership is important because it:",
+      "options": [
+        "Eliminates organizational objectives",
+        "Prevents communication",
+        "Removes employee responsibility",
+        "Provides direction and inspires people toward common goals"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Communication is important for leadership because:",
+      "options": [
+        "Leadership does not involve people",
+        "Communication reduces coordination",
+        "Communication eliminates motivation",
+        "Leaders need to communicate vision, expectations and feedback"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A leader who adapts leadership style according to the situation demonstrates:",
+      "options": [
+        "Bureaucratic leadership",
+        "Laissez-faire leadership only",
+        "Situational leadership",
+        "Autocratic leadership only"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Emotional intelligence is important for leaders because it helps them:",
+      "options": [
+        "Understand and manage emotions in themselves and others",
+        "Ignore employee concerns",
+        "Avoid communication",
+        "Eliminate interpersonal relationships"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Integrity in leadership refers to:",
+      "options": [
+        "Ignoring ethical principles",
+        "Maximizing profit at any cost",
+        "Avoiding accountability",
+        "Honesty and consistency between values and actions"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A good leader should generally demonstrate:",
+      "options": [
+        "Vision, integrity, communication and decision-making ability",
+        "Lack of accountability",
+        "Indifference toward employees",
+        "Resistance to all change"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Ramayana can provide leadership lessons on:",
+      "options": [
+        "Personal gain at any cost",
+        "Duty, integrity, commitment and ethical conduct",
+        "Ignoring organizational values",
+        "Avoiding responsibility"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Rama is often discussed in Indian leadership studies as an example of:",
+      "options": [
+        "Avoidance of responsibility",
+        "Duty-oriented and ethical leadership",
+        "Unethical leadership",
+        "Autocratic business leadership only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The concept of Dharma in leadership emphasizes:",
+      "options": [
+        "Personal profit only",
+        "Avoidance of responsibility",
+        "Ignoring stakeholders",
+        "Ethical duty and righteous conduct"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "The Mahabharata provides leadership lessons relating to:",
+      "options": [
+        "Production management only",
+        "Ethics, decision-making, strategy and consequences of choices",
+        "Financial accounting only",
+        "Recruitment procedures only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Krishna's guidance to Arjuna in the Bhagavad Gita emphasizes:",
+      "options": [
+        "Avoidance of all responsibilities",
+        "Personal wealth as the only goal",
+        "Rejection of decision-making",
+        "Duty, wisdom, self-control and ethical action"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A leader who provides a compelling future direction demonstrates:",
+      "options": [
+        "Bureaucratic control",
+        "Visionary leadership",
+        "Passive leadership",
+        "Avoidance of leadership"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Succession planning is concerned with:",
+      "options": [
+        "Reducing employee development",
+        "Preparing employees to fill important positions in the future",
+        "Recruiting customers",
+        "Preparing financial statements"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Employee development is important because:",
+      "options": [
+        "It reduces organizational skills",
+        "It prevents promotion",
+        "It eliminates career growth",
+        "It improves capabilities and prepares employees for future responsibilities"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "360-degree appraisal obtains feedback from:",
+      "options": [
+        "Only the finance department",
+        "Multiple sources such as supervisors, peers and subordinates",
+        "Only the employee",
+        "Only customers"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Induction is the process of:",
+      "options": [
+        "Retiring employees",
+        "Promoting employees",
+        "Terminating employees",
+        "Introducing new employees to the organization and their jobs"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A structured interview is one in which:",
+      "options": [
+        "Candidates select the questions",
+        "No questions are prepared",
+        "Only informal conversation is used",
+        "Candidates are asked predetermined and relevant questions"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Validity of a selection test refers to:",
+      "options": [
+        "Its length only",
+        "Its popularity among employees",
+        "Its ability to measure what it is intended to measure",
+        "Its cost alone"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Leadership differs from management because leadership emphasizes more strongly:",
+      "options": [
+        "Tax calculation",
+        "Financial accounting",
+        "Influence, direction and inspiration of people",
+        "Inventory control"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A manager can be an effective leader by:",
+      "options": [
+        "Combining managerial authority with influence and interpersonal skills",
+        "Ignoring employee needs",
+        "Avoiding communication",
+        "Eliminating participation"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Promotion based on merit emphasizes:",
+      "options": [
+        "Age alone",
+        "Personal relationships only",
+        "Performance and capability",
+        "Length of service alone in every case"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Effective staffing contributes to organizational success by:",
+      "options": [
+        "Reducing competence",
+        "Avoiding workforce planning",
+        "Eliminating employee development",
+        "Ensuring appropriate human resources are available for organizational needs"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Leadership development can be supported through:",
+      "options": [
+        "Training, mentoring, coaching and challenging assignments",
+        "Avoiding responsibility",
+        "Preventing employee participation",
+        "Eliminating feedback"
+      ],
+      "answer": 0
+    }
+  ]
+}

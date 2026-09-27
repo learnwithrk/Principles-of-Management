@@ -1,0 +1,507 @@
+{
+  "id": "1-introduction-to-management",
+  "title": "1. Introduction to Management",
+  "subtitle": "Definitions, Nature, Functions, Levels, Fayol & Taylor, Indian Ethos, and 21st-Century Challenges",
+  "questions": [
+    {
+      "q": "Management is primarily concerned with:",
+      "options": [
+        "Preparing only financial statements",
+        "Eliminating all business risks",
+        "Increasing the number of employees",
+        "Achieving organizational objectives through effective utilization of resources"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Which of the following best defines management?",
+      "options": [
+        "The process of planning, organizing, staffing, directing and controlling resources",
+        "The process of maintaining financial records",
+        "The process of selling products only",
+        "The process of producing goods only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which of the following is a fundamental characteristic of management?",
+      "options": [
+        "Random activity",
+        "Goal-oriented activity",
+        "Individual activity only",
+        "Non-continuous activity"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Management is considered universal because:",
+      "options": [
+        "It is required in all types of organizations",
+        "It is required only in government organizations",
+        "It is required only in large organizations",
+        "It is required only in business organizations"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which of the following is NOT a characteristic of management?",
+      "options": [
+        "Management is a group activity",
+        "Management is a continuous process",
+        "Management is goal-oriented",
+        "Management is completely independent of human resources"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Management is a:",
+      "options": [
+        "Continuous process",
+        "One-time activity",
+        "Temporary activity",
+        "Seasonal activity"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The primary objective of management is to:",
+      "options": [
+        "Reduce organizational communication",
+        "Eliminate competition",
+        "Increase employee workload",
+        "Achieve organizational goals effectively and efficiently"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Efficiency in management refers to:",
+      "options": [
+        "Increasing employee numbers",
+        "Increasing organizational size",
+        "Achieving goals regardless of resources used",
+        "Doing things with minimum waste of resources"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Effectiveness in management refers to:",
+      "options": [
+        "Achievement of desired objectives",
+        "Reduction of communication",
+        "Reduction of employee benefits",
+        "Elimination of competition"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Management is important because it:",
+      "options": [
+        "Eliminates the need for planning",
+        "Helps coordinate organizational resources toward common goals",
+        "Removes all business uncertainty",
+        "Eliminates managerial responsibility"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Which of the following is a major function of management?",
+      "options": [
+        "Selling only",
+        "Accounting only",
+        "Planning",
+        "Advertising only"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The first function of management is generally considered to be:",
+      "options": [
+        "Staffing",
+        "Planning",
+        "Controlling",
+        "Directing"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Organizing involves:",
+      "options": [
+        "Measuring employee salaries",
+        "Forecasting sales only",
+        "Preparing tax returns",
+        "Arranging resources and activities to achieve objectives"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Staffing primarily deals with:",
+      "options": [
+        "Preparation of financial statements",
+        "Acquisition and development of human resources",
+        "Product pricing",
+        "Purchase of machinery"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Directing involves:",
+      "options": [
+        "Preparing tax returns",
+        "Guiding, supervising and motivating employees",
+        "Preparing balance sheets",
+        "Purchasing raw materials only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Controlling involves:",
+      "options": [
+        "Comparing actual performance with planned standards and taking corrective action",
+        "Recruiting employees only",
+        "Forecasting demand only",
+        "Preparing organizational charts only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Management is considered a science because:",
+      "options": [
+        "It has organized knowledge and principles",
+        "It deals exclusively with physical sciences",
+        "It eliminates human judgment",
+        "It involves laboratory experiments only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Management is considered an art because:",
+      "options": [
+        "It depends only on mathematical formulas",
+        "It does not require knowledge",
+        "It is unrelated to human behavior",
+        "It requires practical application of knowledge and managerial skills"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Management can best be described as:",
+      "options": [
+        "Both a science and an art",
+        "Neither science nor art",
+        "Only an art with no principles",
+        "Only a physical science"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The highest level of management generally includes:",
+      "options": [
+        "Supervisors only",
+        "Clerical employees only",
+        "Chief executives and the board-level management",
+        "Workers only"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Top-level management is mainly responsible for:",
+      "options": [
+        "Formulating organizational policies and strategies",
+        "Supervising individual workers",
+        "Maintaining attendance records",
+        "Operating machinery"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Middle-level management mainly acts as:",
+      "options": [
+        "A substitute for workers",
+        "A link between top management and lower-level management",
+        "An external consultant only",
+        "A replacement for top management"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Lower-level management is primarily concerned with:",
+      "options": [
+        "Preparing national economic policies",
+        "Formulating corporate strategy",
+        "Making board-level decisions",
+        "Supervising operating employees"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Henry Fayol proposed:",
+      "options": [
+        "Ten principles of management",
+        "Twenty principles of management",
+        "Fourteen principles of management",
+        "Five principles of management"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which principle of Fayol emphasizes one employee receiving orders from only one superior?",
+      "options": [
+        "Discipline",
+        "Equity",
+        "Unity of command",
+        "Unity of direction"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Unity of direction means:",
+      "options": [
+        "One employee having several supervisors",
+        "Elimination of organizational plans",
+        "One plan and one head for activities having the same objective",
+        "Centralization of all decisions"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Fayol's principle of division of work aims at:",
+      "options": [
+        "Increasing organizational conflicts",
+        "Specialization and increased efficiency",
+        "Reducing productivity",
+        "Eliminating employee specialization"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The principle of equity emphasizes:",
+      "options": [
+        "Complete centralization",
+        "Equal salaries regardless of performance",
+        "Fair and kind treatment of employees",
+        "Strict punishment of employees"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Fayol's principle of esprit de corps emphasizes:",
+      "options": [
+        "Team spirit and unity among employees",
+        "Elimination of teamwork",
+        "Strict centralization",
+        "Individual competition only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "F.W. Taylor is widely known as the father of:",
+      "options": [
+        "Strategic Management",
+        "Human Relations Management",
+        "Financial Management",
+        "Scientific Management"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Taylor's scientific management emphasizes:",
+      "options": [
+        "Scientific study of work methods",
+        "Elimination of specialization",
+        "Informal organizational structures",
+        "Complete reliance on intuition"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The principle of \"science, not rule of thumb\" was advocated by:",
+      "options": [
+        "F.W. Taylor",
+        "Henry Fayol",
+        "Peter Drucker",
+        "Elton Mayo"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Functional foremanship was associated with:",
+      "options": [
+        "F.W. Taylor",
+        "Max Weber",
+        "Abraham Maslow",
+        "Henry Fayol"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Taylor emphasized the importance of:",
+      "options": [
+        "Informal recruitment only",
+        "Elimination of employee training",
+        "Scientific selection and training of workers",
+        "Random selection of employees"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The Bhagavad Gita emphasizes performing one's duty with:",
+      "options": [
+        "Focus only on monetary rewards",
+        "Detachment from the fruits of action",
+        "Avoidance of responsibility",
+        "Complete avoidance of work"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The management principle derived from the Bhagavad Gita's concept of Nishkama Karma emphasizes:",
+      "options": [
+        "Ignoring ethical considerations",
+        "Maximizing personal rewards",
+        "Avoiding organizational responsibilities",
+        "Performing duties without attachment to results"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Indian ethos in management emphasizes:",
+      "options": [
+        "Individualism without responsibility",
+        "Profit maximization without ethics",
+        "Values, ethics, duty and self-discipline",
+        "Competition without cooperation"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Administration is generally concerned more with:",
+      "options": [
+        "Product packaging",
+        "Policy formulation and overall direction",
+        "Machine operation",
+        "Routine supervision only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Management is generally concerned more with:",
+      "options": [
+        "Judicial administration",
+        "Constitutional law only",
+        "Implementation of policies and achievement of organizational objectives",
+        "National monetary policy"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "One major difference between administration and management is:",
+      "options": [
+        "Administration deals only with workers",
+        "Management has no role in implementation",
+        "Both terms always have completely opposite meanings",
+        "Administration is generally associated with policy formulation, while management emphasizes execution"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A major challenge faced by managers in the 21st century is:",
+      "options": [
+        "Reduction in global competition",
+        "Elimination of technology",
+        "Complete stability in markets",
+        "Rapid technological change"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Globalization creates a management challenge because:",
+      "options": [
+        "International business becomes unnecessary",
+        "Cultural differences disappear completely",
+        "Managers must operate in increasingly interconnected markets",
+        "Organizations no longer face competition"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Artificial intelligence is creating new management challenges related to:",
+      "options": [
+        "Skills, jobs, ethics, data and decision-making",
+        "Elimination of organizational information",
+        "Removal of all human judgment",
+        "Elimination of technology"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sustainability has become important in management because:",
+      "options": [
+        "Sustainability eliminates profitability",
+        "Organizations are expected to consider economic, social and environmental impacts",
+        "Sustainability is unrelated to business",
+        "Sustainability applies only to governments"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Diversity management focuses on:",
+      "options": [
+        "Eliminating teamwork",
+        "Employing people from only one background",
+        "Effectively managing employees with different backgrounds and characteristics",
+        "Reducing organizational communication"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A manager is considered successful when organizational goals are achieved:",
+      "options": [
+        "Without employees",
+        "Without planning",
+        "Effectively and efficiently",
+        "Without using resources"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Management is a social process because:",
+      "options": [
+        "It excludes human interaction",
+        "It involves only machines",
+        "It involves working with and through people",
+        "It is based entirely on mathematical calculations"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Coordination is important in management because it:",
+      "options": [
+        "Prevents teamwork",
+        "Eliminates organizational objectives",
+        "Reduces communication",
+        "Integrates individual and departmental efforts toward common objectives"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Which management level is primarily responsible for translating organizational strategies into departmental plans?",
+      "options": [
+        "Lower-level management",
+        "Operational workers",
+        "External stakeholders",
+        "Middle-level management"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "The concept of management as a profession is associated with:",
+      "options": [
+        "Absence of formal knowledge",
+        "Random decision-making",
+        "Specialized knowledge and professional competence",
+        "Elimination of managerial skills"
+      ],
+      "answer": 2
+    }
+  ]
+}

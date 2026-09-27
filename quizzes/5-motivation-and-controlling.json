@@ -1,0 +1,517 @@
+{
+  "id": "5-motivation-and-controlling",
+  "title": "5. Motivation and Controlling",
+  "subtitle": "Maslow & Herzberg, Coordination, the Control Process, Sustainability and AI in Management",
+  "questions": [
+    {
+      "q": "Motivation refers to:",
+      "options": [
+        "Forces that influence a person to act toward achieving goals",
+        "Organizational structure",
+        "Market forecasting only",
+        "Financial accounting"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Motivation is important because it:",
+      "options": [
+        "Encourages employees to contribute toward organizational objectives",
+        "Eliminates employee participation",
+        "Removes organizational goals",
+        "Reduces productivity"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The motivation process generally begins with:",
+      "options": [
+        "Performance appraisal",
+        "Retirement",
+        "Promotion",
+        "An unsatisfied need"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Intrinsic motivation arises from:",
+      "options": [
+        "Internal satisfaction and interest in the activity",
+        "Punishment only",
+        "External monetary rewards only",
+        "Salary increases only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Extrinsic motivation is based primarily on:",
+      "options": [
+        "Personal satisfaction only",
+        "Internal interest only",
+        "External rewards or consequences",
+        "Self-actualization only"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Maslow's theory is known as:",
+      "options": [
+        "Two-Factor Theory",
+        "Expectancy Theory",
+        "Hierarchy of Needs Theory",
+        "Equity Theory"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Maslow proposed:",
+      "options": [
+        "Ten levels of human needs",
+        "Five levels of human needs",
+        "Seven levels of human needs",
+        "Three levels of human needs"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The lowest level in Maslow's hierarchy is:",
+      "options": [
+        "Physiological needs",
+        "Social needs",
+        "Esteem needs",
+        "Safety needs"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Safety needs include:",
+      "options": [
+        "Personal achievement only",
+        "Security and protection from threats",
+        "Social recognition only",
+        "Self-actualization"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Social needs include:",
+      "options": [
+        "Financial security only",
+        "Belongingness, friendship and affection",
+        "Physical survival only",
+        "Personal achievement only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Esteem needs relate to:",
+      "options": [
+        "Physical safety only",
+        "Food and water",
+        "Recognition, status and self-respect",
+        "Organizational structure"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Self-actualization refers to:",
+      "options": [
+        "Obtaining basic food",
+        "Social belonging only",
+        "Realizing one's full potential",
+        "Job security only"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Herzberg's theory is known as:",
+      "options": [
+        "Scientific Management Theory",
+        "Hierarchy of Needs Theory",
+        "Two-Factor Theory",
+        "Theory X and Theory Y"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "According to Herzberg, hygiene factors primarily:",
+      "options": [
+        "Eliminate the need for recognition",
+        "Replace achievement",
+        "Prevent dissatisfaction",
+        "Always create high motivation"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Which of the following is a hygiene factor according to Herzberg?",
+      "options": [
+        "Salary",
+        "Achievement",
+        "Advancement",
+        "Recognition"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Which of the following is a motivator according to Herzberg?",
+      "options": [
+        "Working conditions",
+        "Company policy",
+        "Salary",
+        "Achievement"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Recognition is considered by Herzberg to be:",
+      "options": [
+        "A physiological need",
+        "A control technique",
+        "A motivator",
+        "A hygiene factor only"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Job enrichment is associated with:",
+      "options": [
+        "Reducing employee skills",
+        "Increasing the depth and responsibility of a job",
+        "Eliminating employee autonomy",
+        "Reducing job responsibility"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Coordination means:",
+      "options": [
+        "Increasing departmental conflicts",
+        "Integrating individual and departmental efforts toward common objectives",
+        "Centralizing all decisions",
+        "Eliminating communication"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Coordination is often described as:",
+      "options": [
+        "A recruitment method",
+        "A financial accounting technique",
+        "The essence of management",
+        "A substitute for planning"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Effective coordination requires:",
+      "options": [
+        "Communication and cooperation",
+        "Isolation of departments",
+        "Absence of leadership",
+        "Elimination of common objectives"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Controlling is concerned with:",
+      "options": [
+        "Recruiting employees",
+        "Developing products only",
+        "Ensuring actual performance conforms to planned standards",
+        "Preparing organizational charts"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The first step in the control process is generally:",
+      "options": [
+        "Measuring performance",
+        "Taking corrective action",
+        "Establishing standards",
+        "Comparing results"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "After establishing standards, the next major step in control is:",
+      "options": [
+        "Measuring actual performance",
+        "Eliminating standards",
+        "Taking corrective action immediately",
+        "Recruiting employees"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Comparison of actual performance with standards helps identify:",
+      "options": [
+        "Employee personalities",
+        "Deviations",
+        "Recruitment needs only",
+        "Product designs"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Corrective action is taken when:",
+      "options": [
+        "Employees request promotion",
+        "No standards exist",
+        "Significant deviations require managerial intervention",
+        "Performance always meets standards"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "An ideal control system should be:",
+      "options": [
+        "Unrelated to organizational objectives",
+        "Completely rigid",
+        "Accurate, timely, economical and flexible",
+        "Expensive and slow"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A control system should be economical because:",
+      "options": [
+        "Cost has no relevance",
+        "Control should replace management",
+        "Control must always be expensive",
+        "Benefits of control should justify its costs"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A timely control system provides information:",
+      "options": [
+        "Only at the end of the year",
+        "After all decisions are irreversible",
+        "Only after the organization closes",
+        "Early enough for corrective action"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Budgetary control involves:",
+      "options": [
+        "Recruiting employees",
+        "Conducting interviews",
+        "Comparing actual financial performance with budgeted figures",
+        "Preparing job descriptions"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Break-even analysis is a control and planning technique used to determine:",
+      "options": [
+        "Organizational hierarchy",
+        "Leadership style",
+        "The level at which total revenue equals total cost",
+        "Employee motivation"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Ratio analysis can be used as a control technique to:",
+      "options": [
+        "Recruit employees",
+        "Evaluate financial performance",
+        "Determine leadership style",
+        "Conduct interviews"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Management audit evaluates:",
+      "options": [
+        "Effectiveness and efficiency of managerial performance",
+        "Product packaging only",
+        "Customer complaints only",
+        "Employee attendance only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sustainable business practices aim to balance:",
+      "options": [
+        "Employee interests alone",
+        "Environmental concerns alone",
+        "Profit alone",
+        "Economic, social and environmental objectives"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "The triple bottom line emphasizes:",
+      "options": [
+        "Planning, Production and Profit",
+        "People, Planet and Profit",
+        "People, Process and Pricing",
+        "Price, Product and Promotion"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Ancient Indian management thought emphasizes:",
+      "options": [
+        "Resource exploitation",
+        "Profit maximization without ethics",
+        "Individual gain only",
+        "Ethical conduct, responsible use of resources and welfare"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "The principle of trusteeship is associated with:",
+      "options": [
+        "Responsible stewardship of resources",
+        "Resource exploitation",
+        "Elimination of social responsibility",
+        "Personal accumulation without responsibility"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Sustainable management encourages organizations to:",
+      "options": [
+        "Consider long-term environmental and social consequences",
+        "Ignore stakeholders",
+        "Focus only on short-term profits",
+        "Avoid innovation"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Corporate ethics refers to:",
+      "options": [
+        "Principles and standards guiding responsible organizational conduct",
+        "Profit maximization only",
+        "Financial accounting procedures only",
+        "Marketing techniques only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A value-based organization emphasizes:",
+      "options": [
+        "Profit without accountability",
+        "Competition without ethics",
+        "Secrecy in all decisions",
+        "Ethical principles in decision-making and behavior"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Artificial intelligence in contemporary management can assist with:",
+      "options": [
+        "Data analysis, forecasting and decision support",
+        "Removing organizational responsibility",
+        "Replacing all employees automatically",
+        "Eliminating all human judgment"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "One important application of AI in human resource management is:",
+      "options": [
+        "Eliminating employee development",
+        "Preventing data analysis",
+        "Recruitment screening and workforce analytics",
+        "Removing performance feedback"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "AI-based predictive analytics can help managers:",
+      "options": [
+        "Identify patterns and forecast potential outcomes",
+        "Replace organizational objectives",
+        "Eliminate uncertainty completely",
+        "Guarantee every future outcome"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A major ethical concern associated with AI in management is:",
+      "options": [
+        "Algorithmic bias and data privacy",
+        "Improved forecasting",
+        "Faster data processing",
+        "Increased transparency"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Human oversight is important when using AI for managerial decisions because:",
+      "options": [
+        "AI is always perfectly accurate",
+        "AI outputs may contain errors, bias or contextual limitations",
+        "Organizations do not need ethical standards",
+        "Managers have no responsibility"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Motivation and control are related because:",
+      "options": [
+        "Motivation eliminates the need for control",
+        "They are completely unrelated",
+        "Control eliminates motivation",
+        "Effective control provides feedback that can influence employee performance and motivation"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Feedback in the control process is important because:",
+      "options": [
+        "It prevents corrective action",
+        "It helps managers and employees understand performance and improve results",
+        "It eliminates standards",
+        "It removes accountability"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Positive reinforcement involves:",
+      "options": [
+        "Strengthening desirable behavior through appropriate rewards or recognition",
+        "Punishing all employees",
+        "Eliminating feedback",
+        "Ignoring performance"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Employee participation can improve motivation because:",
+      "options": [
+        "It can increase involvement, ownership and commitment",
+        "It prevents decision-making",
+        "It eliminates responsibility",
+        "It reduces communication"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A manager using both financial and non-financial rewards recognizes that:",
+      "options": [
+        "Employees have identical motivations",
+        "Recognition has no value",
+        "Money is the only motivator",
+        "Employees may be motivated by different types of needs"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Effective control should ultimately help an organization:",
+      "options": [
+        "Increase bureaucracy without purpose",
+        "Achieve its objectives while correcting significant deviations",
+        "Eliminate planning",
+        "Punish employees"
+      ],
+      "answer": 1
+    }
+  ]
+}

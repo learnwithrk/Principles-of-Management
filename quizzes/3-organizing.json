@@ -1,0 +1,507 @@
+{
+  "id": "3-organizing",
+  "title": "3. Organizing",
+  "subtitle": "Departmentation, Span of Control, Authority, Delegation, Centralization and the Saptanga Theory",
+  "questions": [
+    {
+      "q": "An organization is primarily a:",
+      "options": [
+        "Collection of unrelated individuals",
+        "Marketing campaign",
+        "System of coordinated activities and relationships designed to achieve common objectives",
+        "Financial statement"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "The primary purpose of organizing is to:",
+      "options": [
+        "Eliminate organizational objectives",
+        "Avoid delegation",
+        "Increase confusion",
+        "Arrange resources and activities systematically to achieve objectives"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Organization involves:",
+      "options": [
+        "Elimination of specialization",
+        "Elimination of authority",
+        "Avoidance of responsibility",
+        "Division of work and coordination of activities"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "The first step in the organizing process is generally:",
+      "options": [
+        "Identification of activities",
+        "Budget control",
+        "Performance appraisal",
+        "Recruitment of employees"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Grouping similar activities into departments is known as:",
+      "options": [
+        "Departmentation",
+        "Centralization",
+        "Delegation",
+        "Coordination"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Departmentation based on functions includes:",
+      "options": [
+        "Production, marketing, finance and human resources",
+        "Age groups only",
+        "Product A and Product B only",
+        "North, South, East and West only"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Departmentation by product is appropriate when:",
+      "options": [
+        "There are no customers",
+        "An organization has different product lines",
+        "An organization has only one activity",
+        "There is no specialization"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Geographical departmentation groups activities according to:",
+      "options": [
+        "Product categories only",
+        "Employee skills only",
+        "Management levels only",
+        "Geographic regions"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "An organization chart represents:",
+      "options": [
+        "Production costs only",
+        "Customer preferences",
+        "Formal relationships and authority structure",
+        "Financial performance only"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Span of control refers to:",
+      "options": [
+        "Number of departments in an organization",
+        "Number of subordinates directly supervised by a manager",
+        "Amount of capital invested",
+        "Number of products produced"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "A narrow span of control means:",
+      "options": [
+        "All employees report to the board",
+        "There are no subordinates",
+        "A manager supervises relatively few subordinates",
+        "A manager supervises a very large number of employees"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A wide span of control means:",
+      "options": [
+        "There are no organizational levels",
+        "A manager supervises only one employee",
+        "Authority is eliminated",
+        "A manager supervises many subordinates"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Authority refers to:",
+      "options": [
+        "Employee loyalty",
+        "Financial profit",
+        "The legitimate right to give orders and make decisions",
+        "Personal popularity"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Responsibility refers to:",
+      "options": [
+        "The right to give orders only",
+        "Organizational profit",
+        "The obligation to perform assigned duties",
+        "Informal influence"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Accountability means:",
+      "options": [
+        "Avoiding responsibility",
+        "Delegating all authority",
+        "Being answerable for the results of assigned responsibilities",
+        "Eliminating performance measurement"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Delegation involves:",
+      "options": [
+        "Eliminating subordinate authority",
+        "Removing accountability from managers",
+        "Assigning authority and responsibility to subordinates",
+        "Centralizing all decisions"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Effective delegation requires:",
+      "options": [
+        "Authority without responsibility",
+        "Elimination of supervision",
+        "Appropriate authority, responsibility and accountability",
+        "Responsibility without authority"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Centralization means:",
+      "options": [
+        "Authority is eliminated",
+        "Every employee makes strategic decisions",
+        "Decision-making authority is concentrated at higher levels",
+        "Decision-making is completely delegated"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Decentralization means:",
+      "options": [
+        "Elimination of managerial authority",
+        "Elimination of organizational hierarchy",
+        "Concentration of all decisions at the top",
+        "Distribution of decision-making authority to lower levels"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A major advantage of decentralization is:",
+      "options": [
+        "Faster decision-making at appropriate levels",
+        "Complete absence of control",
+        "Elimination of coordination",
+        "Elimination of accountability"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A good organization should have:",
+      "options": [
+        "Clearly defined authority and responsibility",
+        "Unclear reporting relationships",
+        "No coordination",
+        "Overlapping responsibilities"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Unity of command means:",
+      "options": [
+        "An employee should generally receive orders from one superior",
+        "No employee should have a superior",
+        "All employees should report to customers",
+        "An employee should report to several unrelated managers"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Scalar chain refers to:",
+      "options": [
+        "Informal communication only",
+        "The formal line of authority from the highest to the lowest level",
+        "Financial control",
+        "Employee motivation"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Formal organization is:",
+      "options": [
+        "Temporary personal relationships",
+        "Informal social interaction only",
+        "Naturally developed friendship groups",
+        "Deliberately designed structure of roles and relationships"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Informal organization develops:",
+      "options": [
+        "Only through written rules",
+        "Through financial statements",
+        "Through government legislation",
+        "Naturally through social relationships among employees"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Bureaucratic organization theory is associated with:",
+      "options": [
+        "Abraham Maslow",
+        "F.W. Taylor",
+        "Max Weber",
+        "Henry Fayol"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Max Weber emphasized:",
+      "options": [
+        "Informal relationships only",
+        "Random decision-making",
+        "Complete absence of hierarchy",
+        "Rules, hierarchy, specialization and formal authority"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Human relations theory emphasizes:",
+      "options": [
+        "Machines only",
+        "Formal rules only",
+        "Financial controls only",
+        "Social and human factors in organizations"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Systems theory views an organization as:",
+      "options": [
+        "An open system interacting with its environment",
+        "An independent financial statement",
+        "A collection of unrelated departments",
+        "A completely closed system"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "A mechanistic organization is generally characterized by:",
+      "options": [
+        "Complete decentralization",
+        "High formalization and centralized decision-making",
+        "Flexible informal structures only",
+        "Absence of hierarchy"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "An organic organization generally emphasizes:",
+      "options": [
+        "Strict formalization",
+        "Flexibility, communication and decentralization",
+        "Rigid hierarchy only",
+        "Centralized decisions only"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "The Saptanga theory of the Arthashastra refers to:",
+      "options": [
+        "Seven accounting principles",
+        "Seven marketing functions",
+        "Seven elements or limbs of the state",
+        "Seven leadership styles"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "In the Saptanga theory, Swami refers to:",
+      "options": [
+        "The ruler or leader",
+        "The territory",
+        "The treasury",
+        "The ally"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "In the Saptanga theory, Amatya refers to:",
+      "options": [
+        "Fortification",
+        "Ministers or administrators",
+        "Treasury",
+        "Territory"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "In the Saptanga theory, Janapada refers to:",
+      "options": [
+        "Army",
+        "Ally",
+        "Treasury",
+        "Territory and people"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Kosha in the Saptanga framework refers to:",
+      "options": [
+        "Treasury or financial resources",
+        "Minister",
+        "Army",
+        "Territory"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Danda in the Saptanga theory is associated with:",
+      "options": [
+        "Treasury",
+        "Ally",
+        "Territory",
+        "Force or organized authority"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Mitra in the Saptanga theory refers to:",
+      "options": [
+        "Territory",
+        "Minister",
+        "Ally or friendly power",
+        "Treasury"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Durga in the Saptanga theory refers to:",
+      "options": [
+        "Fortification or protected infrastructure",
+        "Minister",
+        "Ally",
+        "Treasury"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The Saptanga concept can be applied to modern business by emphasizing:",
+      "options": [
+        "Only physical assets",
+        "Leadership, people, resources, infrastructure and strategic relationships",
+        "Only employee salaries",
+        "Only profit"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Authority should be accompanied by:",
+      "options": [
+        "Confusion",
+        "Absence of accountability",
+        "Responsibility",
+        "Informal influence only"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Departmentation by customer groups is based on:",
+      "options": [
+        "Management levels only",
+        "Geographic location only",
+        "Product technology only",
+        "Different categories of customers served"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A matrix organization combines:",
+      "options": [
+        "Formal and informal organizations only",
+        "Centralization and elimination of authority",
+        "Functional and project/product structures",
+        "Production and taxation structures"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "One major advantage of specialization is:",
+      "options": [
+        "Elimination of coordination",
+        "Reduction in productivity",
+        "Elimination of skills",
+        "Increased efficiency through focused expertise"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Coordination is necessary because:",
+      "options": [
+        "It prevents communication",
+        "Departments operate independently without common goals",
+        "It eliminates authority",
+        "Different departments must work toward common organizational objectives"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "A clear organizational structure helps employees understand:",
+      "options": [
+        "Only market prices",
+        "Only their salaries",
+        "Only customer preferences",
+        "Authority, responsibility and reporting relationships"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Organizational effectiveness depends significantly on:",
+      "options": [
+        "Random allocation of authority",
+        "Elimination of communication",
+        "Appropriate structure, coordination and resource utilization",
+        "Complete absence of planning"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "A good organizational structure should be:",
+      "options": [
+        "Flexible enough to respond to environmental changes",
+        "Independent of organizational objectives",
+        "Unrelated to strategy",
+        "Completely rigid"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "The principle \"structure follows strategy\" implies that:",
+      "options": [
+        "Structure is unrelated to strategy",
+        "Organizational structure should support the chosen strategy",
+        "Strategy is unnecessary",
+        "Strategy should always follow structure"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Decentralization can contribute to employee development by:",
+      "options": [
+        "Providing opportunities for lower-level managers to make decisions",
+        "Preventing employees from making decisions",
+        "Eliminating responsibility",
+        "Centralizing all authority"
+      ],
+      "answer": 0
+    }
+  ]
+}
