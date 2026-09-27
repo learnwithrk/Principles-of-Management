@@ -7,9 +7,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css" />
+<style>
+  /* Read-only site protection */
+  body { -webkit-user-select:none; user-select:none; }
+  input, textarea, select, button, a { -webkit-user-select:none; user-select:none; }
+  img, a { -webkit-user-drag:none; }
+</style>
 </head>
 <body>
-
 <div id="topbar"></div>
 
 <div class="hero">
@@ -22,7 +27,6 @@
 
 <main>
   <div class="container">
-
     <div class="section-head"><h2>Available quizzes</h2><div class="rule"></div></div>
     <div id="quizList" class="quiz-list">
       <div class="empty-note">Loading quizzes…</div>
@@ -38,7 +42,7 @@
           <div class="meta">Module 1 · Meaning of Management</div>
         </div>
         <div class="actions">
-          <a class="btn btn-primary" href="ppt/Principles_of_Management.pptx" download>Download PPT</a>
+          <a class="btn btn-primary" href="reader.html?file=ppt/Principles_of_Management.pptx&title=Introduction%20to%20Management%20%E2%80%94%20Part%20I">Read</a>
         </div>
       </div>
 
@@ -49,7 +53,7 @@
           <div class="meta">Module 1 · Functions, Nature, Levels &amp; Founding Theories</div>
         </div>
         <div class="actions">
-          <a class="btn btn-primary" href="ppt/Principles_of_Management_Part2.pptx" download>Download PPT</a>
+          <a class="btn btn-primary" href="reader.html?file=ppt/Principles_of_Management_Part2.pptx&title=Introduction%20to%20Management%20%E2%80%94%20Part%20II">Read</a>
         </div>
       </div>
 
@@ -60,7 +64,7 @@
           <div class="meta">Module 1 · Indian Ethos, Administration vs. Management &amp; 21st-Century Challenges</div>
         </div>
         <div class="actions">
-          <a class="btn btn-primary" href="ppt/Principles_of_Management_Part3.pptx" download>Download PPT</a>
+          <a class="btn btn-primary" href="reader.html?file=ppt/Principles_of_Management_Part3.pptx&title=Introduction%20to%20Management%20%E2%80%94%20Part%20III">Read</a>
         </div>
       </div>
 
@@ -71,7 +75,7 @@
           <div class="meta">Module 2 · Meaning, Nature, Steps &amp; Types of Plans</div>
         </div>
         <div class="actions">
-          <a class="btn btn-primary" href="ppt/Principles_of_Management_Part4.pptx" download>Download PPT</a>
+          <a class="btn btn-primary" href="reader.html?file=ppt/Principles_of_Management_Part4.pptx&title=Planning%20and%20Decision%20Making">Read</a>
         </div>
       </div>
 
@@ -82,7 +86,7 @@
           <div class="meta">Module 3 · Nature, Theory, Types, Authority &amp; Delegation</div>
         </div>
         <div class="actions">
-          <a class="btn btn-primary" href="ppt/Principles_of_Management_Part5.pptx" download>Download PPT</a>
+          <a class="btn btn-primary" href="reader.html?file=ppt/Principles_of_Management_Part5.pptx&title=Organizing">Read</a>
         </div>
       </div>
 
@@ -93,7 +97,7 @@
           <div class="meta">Module 4</div>
         </div>
         <div class="actions">
-          <a class="btn btn-primary" href="ppt/Module_IV_Staffing_and_Leadership.pptx" download>Download PPT</a>
+          <a class="btn btn-primary" href="reader.html?file=ppt/Module_IV_Staffing_and_Leadership.pptx&title=Staffing%20and%20Leadership">Read</a>
         </div>
       </div>
 
@@ -104,17 +108,16 @@
           <div class="meta">Module 5</div>
         </div>
         <div class="actions">
-          <a class="btn btn-primary" href="ppt/Module_V_Motivation_and_Controlling.pptx" download>Download PPT</a>
+          <a class="btn btn-primary" href="reader.html?file=ppt/Module_V_Motivation_and_Controlling.pptx&title=Motivation%20and%20Controlling">Read</a>
         </div>
       </div>
 
     </div>
-
   </div>
 </main>
 
 <footer>
-  <div class="container">Principles of Management — Quiz Hub - Rajakrishnan Manivel https://learnwithrk.blogspot.com/</div>
+  <div class="container">Principles of Management — Quiz Hub - Rajakrishnan Manivel · <a href="https://learnwithrk.blogspot.com/">Learn with RK</a></div>
 </footer>
 
 <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
