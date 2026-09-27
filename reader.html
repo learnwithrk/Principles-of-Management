@@ -3,32 +3,97 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#101b2d">
-<title>Read Presentation — Learn with RK</title>
-<link rel="stylesheet" href="reader.css">
+<meta name="robots" content="noindex">
+<title>Presentation Reader</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#111;color:#fff;font-family:Arial,Helvetica,sans-serif;overflow:hidden;user-select:none;-webkit-user-select:none}body{display:flex;flex-direction:column}.top{height:58px;min-height:58px;background:#171717;display:flex;align-items:center;gap:12px;padding:0 14px;border-bottom:1px solid #333}.home{color:#fff;text-decoration:none;font-size:14px;white-space:nowrap}.title{flex:1;text-align:center;font-size:16px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.fs{border:1px solid #555;background:#252525;color:#fff;border-radius:6px;padding:8px 11px;cursor:pointer}.stage{position:relative;flex:1;min-height:0;display:flex;align-items:center;justify-content:center;background:#0d0d0d;padding:12px 60px}.slide{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;box-shadow:0 4px 28px rgba(0,0,0,.45);-webkit-user-drag:none}.arrow{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:72px;border:0;border-radius:8px;background:rgba(255,255,255,.10);color:#fff;font-size:38px;line-height:1;cursor:pointer}.arrow:hover{background:rgba(255,255,255,.18)}.prev{left:10px}.next{right:10px}.bottom{height:64px;min-height:64px;background:#171717;border-top:1px solid #333;display:flex;align-items:center;justify-content:center;gap:18px}.nav{border:1px solid #555;background:#252525;color:#fff;border-radius:6px;padding:9px 16px;cursor:pointer;font-size:14px}.nav:disabled{opacity:.35;cursor:default}.counter{min-width:70px;text-align:center;font-size:14px}.help{position:absolute;bottom:72px;left:50%;transform:translateX(-50%);font-size:12px;color:#aaa;white-space:nowrap}.error{color:#ffb3b3;text-align:center;max-width:90%;font-size:15px}.stage:fullscreen{padding:20px 70px}.stage:-webkit-full-screen{padding:20px 70px}@media(max-width:700px){.top{height:52px;min-height:52px;padding:0 9px}.title{font-size:14px}.home{font-size:13px}.fs{padding:7px 8px}.stage{padding:8px 48px}.arrow{width:40px;height:58px;font-size:30px}.prev{left:5px}.next{right:5px}.bottom{height:58px;min-height:58px;gap:10px}.nav{padding:8px 12px}.help{display:none}}
+</style>
 </head>
 <body>
-<header class="reader-header">
-  <a class="back" href="index.html">← Home</a>
-  <div class="title-wrap"><div class="eyebrow">Learn with RK</div><h1 id="deckTitle">Presentation</h1></div>
-  <button id="fullscreenBtn" class="tool-btn" type="button">⛶ Full screen</button>
+<header class="top">
+<a class="home" href="./index.html">← Home</a>
+<div class="title" id="title">Presentation</div>
+<button class="fs" id="fullscreen" type="button">⛶ Full screen</button>
 </header>
-<main class="reader">
-  <section id="viewer" class="viewer-shell" aria-label="Presentation reader">
-    <div id="loading" class="status">Opening presentation…</div>
-    <div id="slideStage" class="slide-stage" hidden>
-      <button id="prevBtn" class="nav-arrow prev" type="button" aria-label="Previous slide">‹</button>
-      <div class="slide-frame"><img id="slideImage" alt="Presentation slide" draggable="false"></div>
-      <button id="nextBtn" class="nav-arrow next" type="button" aria-label="Next slide">›</button>
-    </div>
-    <div class="controls">
-      <button id="prevControl" class="control-btn" type="button">Previous</button>
-      <div class="counter" id="counter">—</div>
-      <button id="nextControl" class="control-btn" type="button">Next</button>
-    </div>
-  </section>
-  <p class="help">Use Previous / Next or swipe left/right on mobile. Press ← / → on a keyboard.</p>
+<main class="stage" id="stage">
+<button class="arrow prev" id="prevArrow" aria-label="Previous slide">‹</button>
+<img id="slide" class="slide" alt="Presentation slide" draggable="false">
+<div id="error" class="error" hidden></div>
+<button class="arrow next" id="nextArrow" aria-label="Next slide">›</button>
+<div class="help">Use Previous / Next or swipe left and right on mobile.</div>
 </main>
-<script src="reader.js"></script>
+<footer class="bottom">
+<button class="nav" id="prev" type="button">Previous</button>
+<div class="counter" id="counter">1 / 1</div>
+<button class="nav" id="next" type="button">Next</button>
+</footer>
+<script>
+(function(){
+'use strict';
+var counts={
+ 'principles-of-management':22,
+ 'principles-of-management-part2':62,
+ 'principles-of-management-part3':40,
+ 'principles-of-management-part4':63,
+ 'principles-of-management-part5':83,
+ 'module-iv-staffing-and-leadership':33,
+ 'module-v-motivation-and-controlling':32
+};
+var p=new URLSearchParams(location.search);
+var deck=p.get('deck')||'principles-of-management';
+var title=p.get('title')||'Presentation';
+var total=counts[deck];
+var n=1;
+var img=document.getElementById('slide');
+var titleEl=document.getElementById('title');
+var counter=document.getElementById('counter');
+var prev=document.getElementById('prev'),next=document.getElementById('next');
+var pa=document.getElementById('prevArrow'),na=document.getElementById('nextArrow');
+var stage=document.getElementById('stage'),err=document.getElementById('error');
+
+titleEl.textContent=title;
+document.title=title;
+
+function show(i){
+ if(!total){err.hidden=false;err.textContent='Presentation not found.';img.style.display='none';counter.textContent='';return;}
+ n=Math.max(1,Math.min(total,i));
+ err.hidden=true; img.style.display='block';
+ img.src='slides/'+deck+'/slide-'+n+'.jpg';
+ counter.textContent=n+' / '+total;
+ prev.disabled=n===1; pa.disabled=n===1; next.disabled=n===total; na.disabled=n===total;
+}
+function go(d){show(n+d)}
+prev.onclick=function(){go(-1)};pa.onclick=function(){go(-1)};
+next.onclick=function(){go(1)};na.onclick=function(){go(1)};
+
+document.addEventListener('keydown',function(e){
+ var k=e.key.toLowerCase();
+ if(k==='arrowleft'){e.preventDefault();go(-1)}
+ else if(k==='arrowright'||k===' '){e.preventDefault();go(1)}
+ else if(k==='home'){e.preventDefault();show(1)}
+ else if(k==='end'){e.preventDefault();show(total)}
+ else if(k==='escape' && document.fullscreenElement){document.exitFullscreen()}
+ if((e.ctrlKey||e.metaKey)&&['c','u','s','p','a'].indexOf(k)>=0)e.preventDefault();
+});
+
+document.addEventListener('contextmenu',function(e){e.preventDefault()});
+document.addEventListener('selectstart',function(e){e.preventDefault()});
+document.addEventListener('dragstart',function(e){e.preventDefault()});
+document.addEventListener('copy',function(e){e.preventDefault()});
+document.addEventListener('cut',function(e){e.preventDefault()});
+
+var sx=0,sy=0;
+stage.addEventListener('touchstart',function(e){if(e.touches.length===1){sx=e.touches[0].clientX;sy=e.touches[0].clientY}},{passive:true});
+stage.addEventListener('touchend',function(e){if(e.changedTouches.length!==1)return;var dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)){go(dx<0?1:-1)}},{passive:true});
+
+document.getElementById('fullscreen').onclick=function(){
+ if(document.fullscreenElement){document.exitFullscreen();return}
+ if(stage.requestFullscreen)stage.requestFullscreen();
+ else if(stage.webkitRequestFullscreen)stage.webkitRequestFullscreen();
+};
+img.onerror=function(){err.hidden=false;err.textContent='Unable to load slide '+n+'. Please check the slide file path.';img.style.display='none'};
+show(1);
+})();
+</script>
 </body>
 </html>
