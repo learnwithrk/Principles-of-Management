@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#101b2d">
+<title>Read Presentation — Principles of Management</title>
+<link rel="stylesheet" href="reader.css">
+</head>
+<body>
+<header class="reader-header">
+  <a class="back" href="index.html" aria-label="Back to home">← Home</a>
+  <div class="title-wrap">
+    <div class="eyebrow">Learn with RK</div>
+    <h1 id="deckTitle">Presentation</h1>
+  </div>
+  <button id="fullscreenBtn" class="tool-btn" type="button">⛶ Full screen</button>
+</header>
+
+<main class="reader">
+  <section class="viewer-shell" aria-label="Presentation reader">
+    <div id="loading" class="status">Opening presentation…</div>
+    <div id="slideStage" class="slide-stage" hidden>
+      <button id="prevBtn" class="nav-arrow prev" type="button" aria-label="Previous slide">‹</button>
+      <div class="slide-frame">
+        <img id="slideImage" alt="Presentation slide" draggable="false">
+        <iframe id="officeFrame" title="Presentation viewer" allowfullscreen hidden></iframe>
+      </div>
+      <button id="nextBtn" class="nav-arrow next" type="button" aria-label="Next slide">›</button>
+    </div>
+
+    <div class="controls">
+      <button id="prevControl" class="control-btn" type="button">Previous</button>
+      <div class="counter"><span id="counter">—</span></div>
+      <button id="nextControl" class="control-btn" type="button">Next</button>
+    </div>
+  </section>
+
+  <p id="help" class="help">Use the Previous / Next buttons or swipe left and right on mobile.</p>
+</main>
+
+<script src="reader.js"></script>
+</body>
+</html>
